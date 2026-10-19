@@ -1,4 +1,4 @@
-const POSTERS=[["bolt","Bolt"],["shrek","Shrek"],["lorax","The Lorax"],["encanto","Encanto"],["luca","Luca"],["brave","Brave"],["grinch","The Grinch"]];
+const POSTERS=[["bolt","Bolt"],["shrek","Shrek"],["lorax","The Lorax"],["encanto","Encanto"],["luca","Luca"],["brave","Brave"],["grinch","The Grinch"],["hexed","Hexed"],["up","Up"],["snoopy","The Peanuts Movie"],["hoppers","Hoppers"],["wish","Wish"],["toy_story","Toy Story"],["moana_2","Moana 2"],["ice_age","Ice Age"]];
 const $=(s,r=document)=>r.querySelector(s);
 const grid=(rows)=>`<table class="chips">${rows.map(r=>`<tr>${r.map(c=>`<td>${c}</td>`).join("")}</tr>`).join("")}</table>`;
 const stems=(rows)=>`<table class="stemtbl">${rows.map(r=>`<tr><td>${r[0]}</td><td>${r[1]}</td></tr>`).join("")}</table>`;
@@ -65,7 +65,7 @@ const P1=`<h3>Introduce the Visual Communication (VC)</h3><ul><li>Introduce the 
 
 const P2=`<img class="small" src="images/audience-1.jpg" alt="Audience characteristics: age, gender, socioeconomic status, interests, cultural background, location">
 <ul><li>Discuss the characteristics of the target audience of the poster.</li><li>Include the terms age, gender, interest, socio-economic status (high/medium/low – disposable income), location (city/suburbs/rural areas) and cultural background to describe the audience.</li></ul>
-${stems([["Age","My target audience is aged between ___ and ___ years old."],["Gender","My media product is aimed at ___ (males/females/all genders)."],["Interests","My target audience is interested in ___, ___ and ___."],["Socio-economic status","My target audience has a high / medium / low socio-economic status, meaning they generally have ___ disposable income (money available to spend after essential expenses)."],["Location","My target audience lives in ___ (city / suburban / rural areas), particularly ___."],["Cultural background","My target audience includes people from ___ cultural backgrounds. My media product may appeal to this audience because ___."]])}
+${stems([["Age","The target audience is aged between ___ and ___ years old."],["Gender","The media product is aimed at ___ (males/females/all genders)."],["Interests","The target audience is interested in ___, ___ and ___."],["Socio-economic status","The target audience has a high / medium / low socio-economic status, meaning they generally have ___ disposable income (money available to spend after essential expenses)."],["Location","The target audience lives in ___ (city / suburban / rural areas), particularly ___."],["Cultural background","The target audience includes people from ___ cultural backgrounds. The media product may appeal to this audience because ___."]])}
 <h3>How does the poster attract this audience?</h3>
 <div class="stem">The poster attracts its target audience through the use of ____________ (elements and principles), which appeals to their ____________ (age, gender, interests, cultural background, etc.) because ____________.</div>`;
 
